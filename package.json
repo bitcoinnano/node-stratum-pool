@@ -1,0 +1,71 @@
+{
+  "_from": "git+https://github.com/StarbuckBG/node-stratum-pool.git",
+  "_id": "stratum-pool@0.1.6",
+  "_inBundle": false,
+  "_integrity": "sha1-RRs16O0qW8cEoct0VBKB5c3Lbk4=",
+  "_location": "/stratum-pool",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/StarbuckBG/node-stratum-pool.git",
+    "rawSpec": "git+https://github.com/StarbuckBG/node-stratum-pool.git",
+    "saveSpec": "git+https://github.com/StarbuckBG/node-stratum-pool.git",
+    "fetchSpec": "https://github.com/StarbuckBG/node-stratum-pool.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/StarbuckBG/node-stratum-pool.git#ef65dfbc338fdecb75fded551af67d05dff24ea6",
+  "_spec": "git+https://github.com/StarbuckBG/node-stratum-pool.git",
+  "_where": "/root/nano-node-stratum-pool",
+  "author": {
+    "name": "Matthew Little"
+  },
+  "bugs": {
+    "url": "https://github.com/joshuayabut/node-stratum-pool/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "vekexasia"
+    },
+    {
+      "name": "TheSeven"
+    }
+  ],
+  "dependencies": {
+    "async": "*",
+    "base58-native": "*",
+    "bignum": "*",
+    "bitcoinjs-lib-zcash": "git+https://github.com/runn1ng/bitcoinjs-lib.git#zcash",
+    "equihashverify": "git+https://github.com/joshuayabut/equihashverify.git",
+    "merkle-bitcoin": "git+https://github.com/joshuayabut/merkle-bitcoin.git",
+    "promise": "*"
+  },
+  "deprecated": false,
+  "description": "High performance Stratum poolserver in Node.js",
+  "engines": {
+    "node": ">=7"
+  },
+  "homepage": "https://github.com/joshuayabut/node-stratum-pool",
+  "keywords": [
+    "stratum",
+    "mining",
+    "pool",
+    "server",
+    "poolserver",
+    "bitcoin",
+    "litecoin",
+    "scrypt"
+  ],
+  "license": "GPL-2.0",
+  "main": "lib/index.js",
+  "name": "stratum-pool",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuayabut/node-stratum-pool.git"
+  },
+  "version": "0.1.6"
+}
