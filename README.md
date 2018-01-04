@@ -51,7 +51,7 @@ Example Usage
 #### Install as a node module by cloning repository
 
 ```bash
-git clone https://github.com/z-classic/node-stratum-pool node_modules/stratum-pool
+git clone https://github.com/bitcoinnano/node-stratum-pool.git node_modules/stratum-pool
 npm update
 ```
 
